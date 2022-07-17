@@ -13,15 +13,18 @@ inquirer
 })
 
 
-function createReadMe(responseObj){
+function createReadMe(response){
+  Object.keys(response).forEach(e=> {
+    if(response[e] == ""){response[e] = e}
+  })
 
 return`
-<h1 id="top" align="center">${responseObj.title}</h1>
+<h1 id="top" align="center">${response.title}</h1>
 
 ## Description
 ![Optinal Image here](path/to/file)
 
-${responseObj.description}
+${response.description}
 <p align="right">(<a href="#top">back to top</a>)</p>
 `
 }
