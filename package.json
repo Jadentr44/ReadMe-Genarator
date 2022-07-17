@@ -1,0 +1,24 @@
+{
+  "name": "readme-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadentr44/ReadMe-maker.git"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jadentr44/ReadMe-maker/issues"
+  },
+  "homepage": "https://github.com/Jadentr44/ReadMe-maker#readme",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
