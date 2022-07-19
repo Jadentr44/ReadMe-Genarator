@@ -51,16 +51,15 @@ ${response.description}
 <div id="How-to">
 <h2>How to use</h2>
 
-${response.HowTo}
-<p align="right">(<a href="#top">back to top</a>)</p>
-</div>
+${response.howTo}
+
 
 <div id="Installation">
-<h2>Installation</h2>
+<h4>Installation</h4>
 
 ${response.installation}
 <p align="right">(<a href="#top">back to top</a>)</p>
-</div>
+</div></div>
 
 <div id="test">
 <h2>Test</h2>
