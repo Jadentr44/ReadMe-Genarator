@@ -20,22 +20,34 @@ function createReadMe(response){
     if(response[e] == ""){response[e] = e}
   })
 
-return`
-<h1 id="top" align="center">${response.title}</h1>
+return`<h1 id="top" align="center">${response.title}</h1>
 
-## Description
+<details>
+<summary>Table of Contents</summary>
+<ul>
+   <li><a href="#Description">Description</a></li>
+   <li><a href="#Questions">Questions</a></li>
+</ul>
+</details>
+
+<div id="Description">
+<h2>Description</h2>
+
 ![Optinal Image here](path/to/file)
 
 ${response.description}
 <p align="right">(<a href="#top">back to top</a>)</p>
+</div>
 
+<div id="Questions">
+<h2>Questions</h2>
 
+Github:[${response.githubUserName}](https://github.com/${response.githubUserName})
 
-## Questions
-[Github](https://github.com/${response.githubUserName})
-
-email:${response.email}
+Email:${response.email}
 
 Contact me with any questions
+<p align="right">(<a href="#top">back to top</a>)</p>
+</div>
 `
 }
