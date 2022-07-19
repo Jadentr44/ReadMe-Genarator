@@ -15,7 +15,6 @@
 <div id="Description">
 <h2>Description</h2>
 
-![Optional Image here](path/to/file)
 
 Instead of spending time writing out a good looking readme, you can install this proggram and enter a few questions in the terminal to genarate a high quality readme for your next project, giving you more time to develop
 <p align="right">(<a href="#top">back to top</a>)</p>
