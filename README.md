@@ -1,4 +1,4 @@
-<h1 id="top" align="center">Read Me Genarator</h1>
+<h1 id="top" align="center">somthing</h1>
 
 <details>
 <summary>Table of Contents</summary>
@@ -13,16 +13,16 @@
 
 ![Optinal Image here](path/to/file)
 
-this simple program allows the user to type the basics of what they want into their README.md and it will make a high quality read me, that they can edit later on
+other
 <p align="right">(<a href="#top">back to top</a>)</p>
 </div>
 
 <div id="Questions">
 <h2>Questions</h2>
 
-Github:[Jadentr44](https://github.com/Jadentr44)
+Github:[stuff](https://github.com/stuff)
 
-Email:ex@me.com
+Email:gmail
 
 Contact me with any questions
 <p align="right">(<a href="#top">back to top</a>)</p>
